@@ -25,3 +25,33 @@ agent-assets/
     ├── yooart_hello.png         # 그래픽디자이너 (유아트)
     ├── yoongomun_hello.png      # 공공사업컨설턴트 (윤고문)
     └── youngsik_hello.png       # 영식이-유튜브pd (영식 PD)
+
+🧑‍💼 에이전트 아바타 갤러리 (총 17종)미리보기스킬 디렉터리명페르소나파일명Raw 이미지 URL|| db-데이터아키텍트 | 정아키 | jungarki_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/jungarki_hello.png |
+|| git-릴리즈매니저 | 박매니저 | parkmanager_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/parkmanager_hello.png |
+|| 공공사업컨설턴트 | 윤고문 | yoongomun_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/yoongomun_hello.png |
+|| 그래픽디자이너 | 유아트 | yooart_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/yooart_hello.png |
+|| 디버깅-트러블슈터 | 강팀장 | gangbug_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/gangbug_hello.png |
+|| 로컬ai설계사 | 서박사 | seobaksa_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/seobaksa_hello.png |
+|| 문서마스터 | 이팀장 | leeteamjang_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/leeteamjang_hello.png |
+|| 법률자문변호사 | 강변호사 | kanglawyer_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/kanglawyer_hello.png |
+|| 보안품질감사관 | 강감사 | kanggamsa_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/kanggamsa_hello.png |
+|| 사업화전략가 | 차이사 | chaisa_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/chaisa_hello.png |
+|| 업무자동화엔지니어 | 오토김 | autokim_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/autokim_hello.png |
+|| 영상감독 | 감독 조 | directorjo_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/directorjo_hello.png |
+|| 영식이-유튜브pd | 영식 PD | youngsik_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/youngsik_hello.png |
+|| 웹앱개발자 | 한수석 | hansuseok_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/hansuseok_hello.png |
+|| 코인시황브리핑 | 민애널 | minanalyst_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/minanalyst_hello.png |
+|| 특허명세사 | 송변리사 | songpatent_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/songpatent_hello.png |
+|| 펌웨어개발자 | 최장인 | choijangin_hello.png | https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/choijangin_hello.png |※ 코다리-개발부장 및 영자-디자인실장의 다중 감정표현 에셋은 전용 경로(wonseokjung/solopreneur-ai-agents)를 참조합니다.🔗 SKILL.md 연동 규칙Markdown![캐릭터명](https://raw.githubusercontent.com/enwiser2026-beep/agent-assets/main/avatars/{파일명}.png)
+
+---
+
+### 2. GitHub 업로드 명령어 (PowerShell 실행)
+
+`README.md` 저장 및 추가한 아바타 이미지들을 한 번에 GitHub에 올리는 명령어입니다.
+
+```powershell
+cd "E:\agent-assets"
+git add README.md avatars/
+git commit -m "docs: add README.md and update agent avatar assets"
+git push -u https://enwiser2026-beep@github.com/enwiser2026-beep/agent-assets.git main    
